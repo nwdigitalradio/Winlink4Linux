@@ -51,7 +51,7 @@
 
 #VSLIDE
 
-![rmsgw](assets/rmsgw.jpeg)
+![rmsgw](assets/rmsgw.png)
 
 #HSLIDE
 
