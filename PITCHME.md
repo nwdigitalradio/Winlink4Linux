@@ -49,6 +49,10 @@
 
 * For an RMS Gateway Winlink has expectation that you run it 24/7.
 
+#VSLIDE
+
+![rmsgw](assets/rmsgw.jpeg)
+
 #HSLIDE
 
 ## Software Components
