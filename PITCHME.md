@@ -6,18 +6,18 @@
 
 #HSLIDE
 
+## Take Away - in case you fall asleep
+* Raspberry Pi is a cool little device that doesn't take much power.
+* More HAM digital infrastructure is a good thing.
+* You can get everything from github
+
+#HSLIDE
+
 ## What is Winlink
 * Radio messaging system administered by volunteers that uses HAM radio frequencies.
 * Takes SMTP compliant e-mail messages and using B2 Forwarding Protocol transports them via:
   * Amateur radio
   * Telnet
-
-#HSLIDE
-
-## Take Away - in case you fall asleep
-* Raspberry Pi is a cool little device that doesn't take much power.
-* More HAM digital infrastructure is a good thing.
-* You can get everything from github
 
 #HSLIDE
 
