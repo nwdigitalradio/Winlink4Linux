@@ -12,6 +12,13 @@
   * Amateur radio
   * Telnet
 
+##HSLIDE
+
+## Take Away - in case you fall asleep
+* Raspberry Pi is a cool little device that doesn't take much power.
+* More HAM digital infrastructure is a good thing.
+* You can get everything from github
+
 #HSLIDE
 
 ## Winlink components
@@ -101,7 +108,7 @@
 
 #VSLIDE
 
-### Linux RMS Gateway Installation.
+### Linux RMS Gateway Installation
   * http://k4gbb.no-ip.org/docs/rmsinstdoc.html
 
 #HSLIDE
@@ -111,13 +118,23 @@
 * paclink-unix is a UNIX client for the Winlink 2000 ham radio email system.
 
 * Written by:
-  * Nick Castellano - N2QZ
+  * Nick Castellano - N2QZ (2005)
   * Dana Borgman - KA1WPM
-  * Basil Gunn - N7NIX
+  * Basil Gunn - N7NIX (2009)
 
 #VSLIDE
 
-### paclink-unix
+### paclink-unix - composing & reading messages
+
+* Enables composing/reading of Winlink messages using most email clients
+  * mutt is a great text based email client written by Michael Elkins
+    * "All mail clients suck. This one just sucks less."
+* I use k9-mail (https://k9mail.github.io/) on Android Nexus 7 tablet
+* Platform independent, mail client needs to support IMAP
+
+#VSLIDE
+
+### paclink-unix - transporting messages
 
 * Uses 3 programs for different transport paths
   * wl2kax25 for sending/receiving using a radio connected to an RMS
@@ -160,3 +177,4 @@
 
 ##### This presentation
 * https://gitpitch.com/nwdigitalradio/Winlink4Linux
+* https://github.com/nwdigitalradio/Winlink4Linux/blob/master/PITCHME.md
