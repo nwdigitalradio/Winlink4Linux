@@ -126,9 +126,15 @@
 
 #HSLIDE
 
-### Lotsa RPi's & Radios
+##### Lotsa RPi's & Radios
 
 ![lotsa1](assets/img_1804.jpg)
+
+#VSLIDE
+
+##### Just the RPi's
+
+![lotsa2](assets/img_1805.jpg)
 
 #HSLIDE
 
