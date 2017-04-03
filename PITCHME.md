@@ -12,7 +12,7 @@
   * Amateur radio
   * Telnet
 
-##HSLIDE
+#HSLIDE
 
 ## Take Away - in case you fall asleep
 * Raspberry Pi is a cool little device that doesn't take much power.
