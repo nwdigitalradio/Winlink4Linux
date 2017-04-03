@@ -1,8 +1,8 @@
 #HSLIDE
 
 ## Winlink & the Raspberry Pi
-###### Basil Gunn  N7NIX,  last edit March 29, 2017
-###### https://gitpitch.com/nwdigitalradio/n7nix
+###### Basil Gunn  N7NIX,  last edit April 3, 2017
+###### https://gitpitch.com/nwdigitalradio/Winlink4LInux
 
 #HSLIDE
 
@@ -126,6 +126,12 @@
 
 #HSLIDE
 
+### Lotsa RPi's & Radios
+
+![lotsa1](assets/img_1804.jpg)
+
+#HSLIDE
+
 ## Resources
 
 ##### paclink-unix
@@ -147,4 +153,4 @@
 * https://nw-digital-radio.groups.io/g/udrc/
 
 ##### This presentation
-* https://gitpitch.com/nwdigitalradio/n7nix/
+* https://gitpitch.com/nwdigitalradio/Winlink4Linux
