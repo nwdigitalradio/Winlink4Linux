@@ -9,7 +9,7 @@
 ## Take Away - in case you fall asleep
 * Raspberry Pi is a cool little device that doesn't take much power.
 * More HAM digital infrastructure is a good thing.
-* You can get everything from github
+* You can get all software & presentations from github at no cost.
 
 #HSLIDE
 
@@ -127,10 +127,10 @@
 ### paclink-unix - composing & reading messages
 
 * Enables composing/reading of Winlink messages using most email clients
-  * mutt is a great text based email client written by Michael Elkins
-    * "All mail clients suck. This one just sucks less."
+  * mutt is a great text based email client.
 * I use k9-mail (https://k9mail.github.io/) on Android Nexus 7 tablet
-* Platform independent, mail client needs to support IMAP
+* Supports most Email clients that have IMAP support.
+  * Internet Message Access Protocol is an Internet standard protocol used by e-mail clients to retrieve e-mail messages from a mail server over a TCP/IP connection.
 
 #VSLIDE
 
