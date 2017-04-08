@@ -11,6 +11,10 @@
 * More HAM digital infrastructure is a good thing.
 * You can get all software & presentations from github at no cost.
 
+#VSLIDE
+
+![Parallel Resonance](assets/pcircuit.png)
+
 #HSLIDE
 
 ## What is Winlink
