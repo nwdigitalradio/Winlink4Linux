@@ -1,7 +1,7 @@
 #HSLIDE
 
 ## Winlink & the Raspberry Pi
-###### Basil Gunn  N7NIX,  last edit April 8, 2017
+###### Basil Gunn  N7NIX,  last edit April 9, 2017
 ###### https://gitpitch.com/nwdigitalradio/Winlink4LInux
 ######https://github.com/nwdigitalradio/Winlink4Linux
 
@@ -60,7 +60,12 @@
 
 * Ethernet or WiFi connection
 
+#VSLIDE
+
+#### Hardware Components - continue
+
 * Some device (Workstation, pad, phone) for:
+
   * running message composition & reception.
   * console to maintain gateway/paclink-unix
 
@@ -69,7 +74,8 @@
 ![rmsgw](assets/rmsgw.png)
 
 #VSLIDE
-## Shameless plug for a good Sound Card
+
+#### Shameless plug for a good Sound Card
 
 * The NW Digital radio UDRC II has:
   * two separate data channels (stereo sound device)
@@ -125,7 +131,7 @@
 
 * AX.25 (Amateur X.25) is a data link layer protocol derived from the X.25 protocol suite
 * Designed for use by amateur radio packet operators
-* Protocol is built into kernel
+* Protocol is built into Linux kernel
 * Also has these user side components
   * ax25tools
   * ax25apps
@@ -138,9 +144,13 @@
 * A radio station running Radio Mail Server (RMS) Packet software which provides a communications path between
  a VHF or UHF packet Winlink user and the internet via a Winlink Common Message Server (CMS)
 
+#VSLIDE
+
+#### Linux RMS Packet Gateway - continue
+
 *  Winlink has expectation that you run your RMS Gateway 24/7.
 
-* Written & maintained by:
+* Written (10/2004) & maintained by:
   * Hans-J. Barthen - DL5DI
   * Brian R. Eckert - W3SG
 
@@ -154,7 +164,7 @@
 * Script that will install both RMS Gateway and/or paclink-unix
   * https://github.com/nwdigitalradio/n7nix
 
-#HSLIDE
+#VSLIDE
 
 ## paclink-unix
 
@@ -220,4 +230,5 @@
 
 ##### This presentation
 * https://gitpitch.com/nwdigitalradio/Winlink4Linux
-* https://github.com/nwdigitalradio/Winlink4Linux/blob/master/PITCHME.md
+* Files used to generate this presentation:
+  * https://github.com/nwdigitalradio/Winlink4Linux/
