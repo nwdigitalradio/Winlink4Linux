@@ -1,8 +1,9 @@
 #HSLIDE
 
 ## Winlink & the Raspberry Pi
-###### Basil Gunn  N7NIX,  last edit April 3, 2017
+###### Basil Gunn  N7NIX,  last edit April 8, 2017
 ###### https://gitpitch.com/nwdigitalradio/Winlink4LInux
+######https://github.com/nwdigitalradio/Winlink4Linux
 
 #HSLIDE
 
@@ -35,7 +36,7 @@
 
 #HSLIDE
 
-## Why the Pi?
+## Why the Raspberry Pi?
 
 * Raspberry Pi 3 power draw:
   * 1.4 W  idle
@@ -45,6 +46,7 @@
 * Runs Linux
   * Has decent uptime
   * You can control system updates
+  * Built in WiFi for connecting to Winlink device
 
 #HSLIDE
 
@@ -56,13 +58,29 @@
 
 * Power supply or battery with trickle charger
 
-* Internet connection
+* Ethernet or WiFi connection
 
-* For an RMS Gateway Winlink has expectation that you run it 24/7.
+* Some device (Workstation, pad, phone) for:
+  * running message composition & reception.
+  * console to maintain gateway/paclink-unix
 
 #VSLIDE
 
 ![rmsgw](assets/rmsgw.png)
+
+#VSLIDE
+## Shameless plug for a good Sound Card
+
+* The NW Digital radio UDRC II has:
+  * two separate data channels (stereo sound device)
+  * two GPIO ports to control PTT
+  * two data connectors for radio data ports.
+
+##### Example
+
+* Connect both 2M Kenwood & 220 Alinco
+  * No switch required
+  * Use WiFi on RPi to connect to Winlink device.
 
 #HSLIDE
 
@@ -79,7 +97,21 @@
 
 ##### All software is Open Source
 
-#HSLIDE
+#VSLIDE
+
+#### Need something to compose/receive messages
+
+* Local Winlink app - paclink-unix, allows using any IMAP e-mail client
+
+* Network (virtual) winlink app that supports either:
+  * AGWPE network protocol (port 8000)
+  * Network Kiss (port 8001)
+
+##### Applications include:
+
+* Outpost, AirMail, Paclink, Winlink Express
+
+#VSLIDE
 
 ## Direwolf
 
@@ -87,7 +119,7 @@
 * Dire Wolf is a software "soundcard" modem/TNC and APRS encoder/decoder.
 * Source: https://github.com/wb2osz/direwolf
 
-#HSLIDE
+#VSLIDE
 
 ## AX.25
 
@@ -99,12 +131,14 @@
   * ax25apps
   * libax25
 
-#HSLIDE
+#VSLIDE
 
 ## Linux RMS Packet Gateway
 
 * A radio station running Radio Mail Server (RMS) Packet software which provides a communications path between
  a VHF or UHF packet Winlink user and the internet via a Winlink Common Message Server (CMS)
+
+*  Winlink has expectation that you run your RMS Gateway 24/7.
 
 * Written & maintained by:
   * Hans-J. Barthen - DL5DI
@@ -113,7 +147,12 @@
 #VSLIDE
 
 ### Linux RMS Gateway Installation
+
+* Great notes from Brian Eckert W3SG
   * http://k4gbb.no-ip.org/docs/rmsinstdoc.html
+
+* Script that will install both RMS Gateway and/or paclink-unix
+  * https://github.com/nwdigitalradio/n7nix
 
 #HSLIDE
 
@@ -133,12 +172,12 @@
 * Enables composing/reading of Winlink messages using most email clients
   * mutt is a great text based email client.
 * I use k9-mail (https://k9mail.github.io/) on Android Nexus 7 tablet
-* Supports most Email clients that have IMAP support.
+* Supports most/all Email clients that have IMAP support.
   * Internet Message Access Protocol is an Internet standard protocol used by e-mail clients to retrieve e-mail messages from a mail server over a TCP/IP connection.
 
 #VSLIDE
 
-### paclink-unix - transporting messages
+### paclink-unix - transports
 
 * Uses 3 programs for different transport paths
   * wl2kax25 for sending/receiving using a radio connected to an RMS
