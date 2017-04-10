@@ -1,7 +1,7 @@
 #HSLIDE
 
 ## Winlink & the Raspberry Pi
-###### Basil Gunn  N7NIX,  last edit April 9, 2017
+###### Basil Gunn  N7NIX,  last edit April 10, 2017
 ###### https://gitpitch.com/nwdigitalradio/Winlink4LInux
 ######https://github.com/nwdigitalradio/Winlink4Linux
 
@@ -92,8 +92,16 @@
   * Use WiFi on RPi to connect to Winlink device.
 
 #HSLIDE
-
 ## Software Components
+* Depends on functionality
+
+  * Winlink RMS Gateway
+  * Linux Winlink message client
+  * TNC for Windows Winlink msg client
+
+#VSLIDE
+
+#### Software Components - continued
 ###### assume sound card
 
 * Direwolf
@@ -112,10 +120,10 @@
 
 * 4 ways to do this:
   * Use paclink-unix & an e-mail client on the RPi
-    * (mail, mutt, Thunderbird (need keyboard & screen)
+    * mail, mutt, Thunderbird (need keyboard & screen)
   * Use paclink-unix with a mail server, use any external e-mail client
   * Use paclink-unix with a mail server & web server with web e-mail client
-  * Forget paclink-unx & connect to Direwolf with AGWPE or Network Kiss interface.
+  * Forget paclink-unix & connect to Direwolf with AGWPE or Network Kiss interface.
 
 #VSLIDE
 
