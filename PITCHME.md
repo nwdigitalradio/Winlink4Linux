@@ -65,7 +65,7 @@
 
 #### Hardware Components - continue
 
-* Some device (Workstation, pad, phone) for:
+* Some device (workstation, laptop, pad, phone) for:
 
   * running message composition & reception.
   * console to maintain gateway/paclink-unix
@@ -84,6 +84,7 @@
   * two separate data channels (stereo sound device)
   * two GPIO ports to control PTT
   * two data connectors for radio data ports.
+  * flexible data rate 1200, 9600, ->
 
 ##### Example
 
