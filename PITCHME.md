@@ -58,7 +58,8 @@
 
 * Power supply or battery with trickle charger
 
-* Ethernet or WiFi connection
+* Ethernet or WiFi connection to the Internet
+  * RMS Gateway only
 
 #VSLIDE
 
@@ -68,6 +69,8 @@
 
   * running message composition & reception.
   * console to maintain gateway/paclink-unix
+
+* Some HF/VHF/UHF Amateur Radio.
 
 #VSLIDE
 
@@ -101,19 +104,29 @@
 
 * paclink-unix
 
-##### All software is Open Source
+* Something to compose & read e-mail messages
 
 #VSLIDE
 
 #### Need something to compose/receive messages
 
-* Local Winlink app - paclink-unix, allows using any IMAP e-mail client
+* 4 ways to do this:
+  * Use paclink-unix & an e-mail client on the RPi
+    * (mail, mutt, Thunderbird (need keyboard & screen)
+  * Use paclink-unix with a mail server, use any external e-mail client
+  * Use paclink-unix with a mail server & web server with web e-mail client
+  * Forget paclink-unx & connect to Direwolf with AGWPE or Network Kiss interface.
+
+#VSLIDE
+
+#### compose/receive messages - continued
+#### AGWPE / Network Kiss
 
 * Network (virtual) winlink app that supports either:
   * AGWPE network protocol (port 8000)
   * Network Kiss (port 8001)
 
-##### Applications include:
+##### Windows based applications include:
 
 * Outpost, AirMail, Paclink, Winlink Express
 
@@ -182,7 +195,7 @@
 * Enables composing/reading of Winlink messages using most email clients
   * mutt is a great text based email client.
 * I use k9-mail (https://k9mail.github.io/) on Android Nexus 7 tablet
-* Supports most/all Email clients that have IMAP support.
+* Supports most/all email clients that have IMAP support.
   * Internet Message Access Protocol is an Internet standard protocol used by e-mail clients to retrieve e-mail messages from a mail server over a TCP/IP connection.
 
 #VSLIDE
