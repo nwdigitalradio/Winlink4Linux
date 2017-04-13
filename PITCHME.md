@@ -209,12 +209,25 @@
 
 #VSLIDE
 
+### paclink-unix - sending & receiving messages
+
+![plu](assets/pluwebcapture.png)
+
+#VSLIDE
+
 ### paclink-unix - transports
 
 * Uses 3 programs for different transport paths
   * wl2kax25 for sending/receiving using a radio connected to an RMS
   * wl2ktelnet for sending/receiving using Internet
   * wl2kserial for send/receiving using a Pactor modem
+
+#HSLIDE
+
+##### In Conclusion
+* Linux RMS Gateway running on a Raspberry Pi make a great low power, reliable Winlink Gateway
+* Paclink-unix can be used with any e-mail client to compose Winlink messges
+* Raspberry Pi with a UDRC running Direwolf makes a versatile Sound Modem
 
 #HSLIDE
 
