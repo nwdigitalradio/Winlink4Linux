@@ -1,7 +1,8 @@
 #HSLIDE
 
 ## Winlink & the Raspberry Pi
-###### Basil Gunn  N7NIX,  last edit April 10, 2017
+###### Basil Gunn  N7NIX,  last edit April 13, 2017
+
 ###### https://gitpitch.com/nwdigitalradio/Winlink4LInux
 ######https://github.com/nwdigitalradio/Winlink4Linux
 
@@ -36,9 +37,9 @@
 
 #HSLIDE
 
-## Why the Raspberry Pi?
+###Why the Raspberry Pi?
 
-* Raspberry Pi 3 power draw:
+* Raspberry Pi 3 power consumption:
   * 1.4 W  idle
   * ~3.7 W  under heavy load
   * https://www.pidramble.com/wiki/benchmarks/power-consumption
@@ -47,6 +48,16 @@
   * Has decent uptime
   * You can control system updates
   * Built in WiFi for connecting to Winlink device
+
+#VSLIDE
+
+###Why the Pi? - continue
+
+* No moving parts - quiet!
+* Small form factor
+* Expansion capabilities - HAT
+* Cheap ... I mean affordable
+* Huge community support
 
 #HSLIDE
 
@@ -209,18 +220,18 @@
 
 #VSLIDE
 
-### paclink-unix - sending & receiving messages
-
-![plu](assets/pluwebcapture.png)
-
-#VSLIDE
-
 ### paclink-unix - transports
 
 * Uses 3 programs for different transport paths
   * wl2kax25 for sending/receiving using a radio connected to an RMS
   * wl2ktelnet for sending/receiving using Internet
   * wl2kserial for send/receiving using a Pactor modem
+
+#VSLIDE
+
+### paclink-unix - sending & receiving messages
+
+![plu](assets/pluwebcapture.png)
 
 #HSLIDE
 
