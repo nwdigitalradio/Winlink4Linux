@@ -236,7 +236,7 @@
 #HSLIDE
 
 ##### In Conclusion
-* Linux RMS Gateway running on a Raspberry Pi make a great low power, reliable Winlink Gateway
+* Linux RMS Gateway running on a Raspberry Pi makes a great low power, reliable Winlink Gateway
 * Paclink-unix can be used with any e-mail client to compose Winlink messges
 * Raspberry Pi with a UDRC running Direwolf makes a versatile Sound Modem
 
