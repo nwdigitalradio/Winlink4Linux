@@ -261,7 +261,7 @@
 * presentation: https://gitpitch.com/nwdigitalradio/paclink-unix/
 
 ##### Linux RMS Gateway
-* source code: https://github.com/nwdigitalradio/paclink-unix
+* source code: https://github.com/nwdigitalradio/rmsgw
 * presentation: https://gitpitch.com/nwdigitalradio/rmsgw/
 
 #VSLIDE
