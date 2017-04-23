@@ -93,6 +93,12 @@ done
 
 if [ "$needs_pkg" = "true" ] ; then
 
+   # Be sure we're running as root
+   if [[ $EUID != 0 ]] ; then
+      echo "Must be root to install packages"
+      exit 1
+   fi
+
    apt-get install -y -q $PKG_REQUIRE
    if [ "$?" -ne 0 ] ; then
       echo "Required package install failed. Please try this command manually:"
