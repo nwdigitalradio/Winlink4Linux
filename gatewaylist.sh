@@ -9,7 +9,7 @@
 myname="`basename $0`"
 user=$(whoami)
 GRIDSQUARE="cn88nl"
-MAXDIST="50"
+MAXDIST="30"
 # Create a temporary file for cURL output
 WINLINK_TMP_FILE="/tmp/rmsgwprox.json"
 
