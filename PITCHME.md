@@ -4,7 +4,7 @@
 ###### Basil Gunn  N7NIX,  last edit April 13, 2017
 
 ###### https://gitpitch.com/nwdigitalradio/Winlink4LInux
-######https://github.com/nwdigitalradio/Winlink4Linux
+###### https://github.com/nwdigitalradio/Winlink4Linux
 
 #HSLIDE
 
@@ -37,7 +37,7 @@
 
 #HSLIDE
 
-###Why the Raspberry Pi?
+### Why the Raspberry Pi?
 
 * Raspberry Pi 3 power consumption:
   * 1.4 W  idle
