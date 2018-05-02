@@ -11,10 +11,6 @@
 # http://stedolan.github.io/jq/download/
 #
 
-svnrevstr="$Revision: $"
-svndatestr="$Date: $"
-
-user=$(whoami)
 myname="`basename $0`"
 
 TMPDIR="/tmp"
@@ -29,7 +25,6 @@ grid_square="cn88nl"   # default grid square location or origin
 
 # Define a single white space for column formating
 singlewhitespace=" "
-
 
 
 ## ============ functions ============
@@ -49,8 +44,7 @@ usage () {
 # is_pkg_installed
 
 function is_pkg_installed() {
-
-return $(dpkg-query -W -f='${Status}' $1 2>/dev/null | grep -c "ok installed")
+   return $(dpkg-query -W -f='${Status}' $1 2>/dev/null | grep -c "ok installed")
 }
 
 #
@@ -60,7 +54,6 @@ return $(dpkg-query -W -f='${Status}' $1 2>/dev/null | grep -c "ok installed")
 # arg2 = length to pad
 #
 format_space () {
-
    local whitespace=" "
    strarg="$1"
    lenarg="$2"
@@ -75,7 +68,6 @@ format_space () {
 
 ## =============== main ===============
 # Are required programs installed?
-
 
 # check if packages are installed
 dbgecho "Check packages: $PKG_REQUIRE"
@@ -134,12 +126,6 @@ if (( $# == 2 )) ; then
   fi
 fi
 
-
-# check for existence of a local tmp directory
-if [ ! -d "$TMPDIR" ] ; then
-  mkdir $TMPDIR
-fi
-
 #  Test if temporary proximity file already exists
 if [ ! -e "$RMS_PROXIMITY_FILE_RAW" ] ; then
   do_it_flag=1
@@ -164,7 +150,6 @@ fi # END Test if temporary proximity file already exists
 
 # temporary - disable Winlink web services interrogation for testing
 # do_it_flag=0
-
 
 if [ $do_it_flag -ne 0 ]; then
   # Get the proximity information from the winlink server
@@ -226,7 +211,6 @@ while read line ; do
     echo  "  $callsign$(format_space $callsign 13) $frequency $(format_space $frequency 9) $distance"
 
   fi
-
 
 done < $RMS_PROXIMITY_FILE_PARSE
 
